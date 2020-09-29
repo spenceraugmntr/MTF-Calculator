@@ -22,9 +22,9 @@ print('your phi is', phi, 'cyc/mrad')
 print('Your MTF is', MTF,'lp/mm')            
                  
 # setting the x - coordinates 
-x = np.array([lpmm,500,0.1] ) 
+x = np.array([lpmm,500,500] ) 
 # setting the corresponding y - coordinates 
-y = np.array([MTF,500,0.1]) 
+y = np.array([MTF,0,1]) 
   
 # potting the points 
 plt.plot(x, y) 
